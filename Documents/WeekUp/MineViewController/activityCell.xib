@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="KGk-i7-Jjw" customClass="activityCell" customModule="WKTabBarController_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cuw-Xr-h0e">
+                        <rect key="frame" x="16" y="8" width="33" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="33" id="nbD-pT-WCv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ah8-WM-khf">
+                        <rect key="frame" x="57" y="16" width="107" height="16"/>
+                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="12"/>
+                        <color key="textColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6/10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5br-9y-lz2">
+                        <rect key="frame" x="235" y="16" width="115" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="zxy-aN-ikf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Oblique" family="Avenir" pointSize="12"/>
+                        <color key="textColor" red="0.49803921568627452" green="0.5607843137254902" blue="0.64313725490196072" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="5br-9y-lz2" secondAttribute="trailing" constant="-16" id="GHm-uY-Akn"/>
+                    <constraint firstItem="cuw-Xr-h0e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="HYM-k8-yRZ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="cuw-Xr-h0e" secondAttribute="bottom" constant="-2" id="JJZ-t0-8mP"/>
+                    <constraint firstItem="cuw-Xr-h0e" firstAttribute="centerY" secondItem="5br-9y-lz2" secondAttribute="centerY" id="K9F-pE-hTn"/>
+                    <constraint firstItem="5br-9y-lz2" firstAttribute="leading" secondItem="ah8-WM-khf" secondAttribute="trailing" constant="71" id="Ol8-P7-sfx"/>
+                    <constraint firstItem="ah8-WM-khf" firstAttribute="leading" secondItem="cuw-Xr-h0e" secondAttribute="trailing" constant="8.5" id="a8M-Ug-8OQ"/>
+                    <constraint firstItem="cuw-Xr-h0e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="grV-ID-X0I"/>
+                    <constraint firstItem="cuw-Xr-h0e" firstAttribute="centerY" secondItem="ah8-WM-khf" secondAttribute="centerY" id="mFU-tj-b47"/>
+                    <constraint firstItem="5br-9y-lz2" firstAttribute="baseline" secondItem="ah8-WM-khf" secondAttribute="baseline" id="vjD-oI-DpZ"/>
+                    <constraint firstItem="5br-9y-lz2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="wSn-1n-cag"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="actImage" destination="cuw-Xr-h0e" id="KrB-NL-SRG"/>
+                <outlet property="activitityNum" destination="5br-9y-lz2" id="ZRd-tE-tV0"/>
+                <outlet property="activityLabel" destination="ah8-WM-khf" id="zWP-ls-5ph"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

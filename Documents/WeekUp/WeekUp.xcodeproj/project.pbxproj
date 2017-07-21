@@ -1,0 +1,1097 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153E692C1F21867500E48CB4 /* AddItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E69191F21867500E48CB4 /* AddItemCell.swift */; };
+		153E692D1F21867500E48CB4 /* AddItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153E691A1F21867500E48CB4 /* AddItemCell.xib */; };
+		153E692E1F21867500E48CB4 /* AllWeekLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E691B1F21867500E48CB4 /* AllWeekLists.swift */; };
+		153E692F1F21867500E48CB4 /* AllWeekLists.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153E691C1F21867500E48CB4 /* AllWeekLists.xib */; };
+		153E69311F21867500E48CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153E691E1F21867500E48CB4 /* Assets.xcassets */; };
+		153E69321F21867500E48CB4 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E691F1F21867500E48CB4 /* Checklist.swift */; };
+		153E69331F21867500E48CB4 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E69201F21867500E48CB4 /* ChecklistItem.swift */; };
+		153E69341F21867500E48CB4 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E69211F21867500E48CB4 /* DataModel.swift */; };
+		153E69351F21867500E48CB4 /* GetSuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E69221F21867500E48CB4 /* GetSuperView.swift */; };
+		153E69361F21867500E48CB4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 153E69231F21867500E48CB4 /* Info.plist */; };
+		153E69371F21867500E48CB4 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E69241F21867500E48CB4 /* ListCell.swift */; };
+		153E69381F21867500E48CB4 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153E69251F21867500E48CB4 /* ListCell.xib */; };
+		153E693B1F21867500E48CB4 /* NextWeekController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E69281F21867500E48CB4 /* NextWeekController.swift */; };
+		153E693C1F21867500E48CB4 /* NextWeekController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153E69291F21867500E48CB4 /* NextWeekController.xib */; };
+		153E693D1F21867500E48CB4 /* ThisWeekController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E692A1F21867500E48CB4 /* ThisWeekController.swift */; };
+		153E693E1F21867500E48CB4 /* ThisWeekController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 153E692B1F21867500E48CB4 /* ThisWeekController.xib */; };
+		15F20BB81F2044D000E5A542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BB71F2044D000E5A542 /* AppDelegate.swift */; };
+		15F20BBA1F2044D000E5A542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BB91F2044D000E5A542 /* ViewController.swift */; };
+		15F20BBD1F2044D000E5A542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F20BBB1F2044D000E5A542 /* Main.storyboard */; };
+		15F20BC21F2044D000E5A542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15F20BC01F2044D000E5A542 /* LaunchScreen.storyboard */; };
+		15F20BCA1F20451D00E5A542 /* AllTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BC91F20451D00E5A542 /* AllTabBarController.swift */; };
+		15F20BCC1F20452700E5A542 /* AllNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BCB1F20452700E5A542 /* AllNavigationController.swift */; };
+		15F20C051F20460600E5A542 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BF01F20460600E5A542 /* CircleProgressView.swift */; };
+		15F20C061F20460600E5A542 /* EditTeamTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BF11F20460600E5A542 /* EditTeamTableCell.swift */; };
+		15F20C071F20460600E5A542 /* EditTeamTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20BF21F20460600E5A542 /* EditTeamTableCell.xib */; };
+		15F20C081F20460600E5A542 /* EditTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BF31F20460600E5A542 /* EditTeamViewController.swift */; };
+		15F20C091F20460600E5A542 /* RankTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BF41F20460600E5A542 /* RankTableCell.swift */; };
+		15F20C0A1F20460600E5A542 /* RankTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20BF51F20460600E5A542 /* RankTableCell.xib */; };
+		15F20C0B1F20460600E5A542 /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BF61F20460600E5A542 /* RankViewController.swift */; };
+		15F20C0C1F20460600E5A542 /* YSSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BF81F20460600E5A542 /* YSSegmentedControl.swift */; };
+		15F20C0D1F20460600E5A542 /* TimeToUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BF91F20460600E5A542 /* TimeToUp.swift */; };
+		15F20C0E1F20460600E5A542 /* TimeToUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20BFA1F20460600E5A542 /* TimeToUp.xib */; };
+		15F20C0F1F20460600E5A542 /* UpTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BFB1F20460600E5A542 /* UpTableCell.swift */; };
+		15F20C101F20460600E5A542 /* UpTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20BFC1F20460600E5A542 /* UpTableCell.xib */; };
+		15F20C111F20460600E5A542 /* UpTableHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BFD1F20460600E5A542 /* UpTableHead.swift */; };
+		15F20C121F20460600E5A542 /* UpTableHead.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20BFE1F20460600E5A542 /* UpTableHead.xib */; };
+		15F20C131F20460600E5A542 /* UpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20BFF1F20460600E5A542 /* UpViewController.swift */; };
+		15F20C141F20460600E5A542 /* WeekRankTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C001F20460600E5A542 /* WeekRankTableCell.swift */; };
+		15F20C151F20460600E5A542 /* WeekRankTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20C011F20460600E5A542 /* WeekRankTableCell.xib */; };
+		15F20C1C1F20463900E5A542 /* PPBadgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C181F20463900E5A542 /* PPBadgeLabel.swift */; };
+		15F20C1D1F20463900E5A542 /* UIBarButtonItem+PPBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C191F20463900E5A542 /* UIBarButtonItem+PPBadgeView.swift */; };
+		15F20C1E1F20463900E5A542 /* UITabBarItem+PPBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C1A1F20463900E5A542 /* UITabBarItem+PPBadgeView.swift */; };
+		15F20C1F1F20463900E5A542 /* UIView+PPBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C1B1F20463900E5A542 /* UIView+PPBadgeView.swift */; };
+		15F20C2B1F20464800E5A542 /* checklistDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C241F20464800E5A542 /* checklistDetailsCell.swift */; };
+		15F20C2C1F20464800E5A542 /* checklistDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20C251F20464800E5A542 /* checklistDetailsCell.xib */; };
+		15F20C2D1F20464800E5A542 /* checklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C261F20464800E5A542 /* checklistTableViewCell.swift */; };
+		15F20C2E1F20464800E5A542 /* checklistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20C271F20464800E5A542 /* checklistTableViewCell.xib */; };
+		15F20C2F1F20464800E5A542 /* showTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C281F20464800E5A542 /* showTableViewCell.swift */; };
+		15F20C301F20464800E5A542 /* showTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20C291F20464800E5A542 /* showTableViewCell.xib */; };
+		15F20C311F20464800E5A542 /* WeekUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C2A1F20464800E5A542 /* WeekUpViewController.swift */; };
+		15F20C431F20473400E5A542 /* activitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C381F20473400E5A542 /* activitiesViewController.swift */; };
+		15F20C441F20473400E5A542 /* activityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C391F20473400E5A542 /* activityCell.swift */; };
+		15F20C451F20473400E5A542 /* activityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20C3A1F20473400E5A542 /* activityCell.xib */; };
+		15F20C471F20473400E5A542 /* messagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20C3C1F20473400E5A542 /* messagesCell.xib */; };
+		15F20C4A1F20473400E5A542 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C3F1F20473400E5A542 /* profileViewController.swift */; };
+		15F20C4B1F20473400E5A542 /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C401F20473400E5A542 /* settingViewController.swift */; };
+		15F20C4C1F20473400E5A542 /* weekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20C411F20473400E5A542 /* weekCell.swift */; };
+		15F20C4D1F20473400E5A542 /* weekCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20C421F20473400E5A542 /* weekCell.xib */; };
+		15F20DDB1F205A3A00E5A542 /* AddedUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DCD1F205A3A00E5A542 /* AddedUserCell.swift */; };
+		15F20DDC1F205A3A00E5A542 /* AddedUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20DCE1F205A3A00E5A542 /* AddedUserCell.xib */; };
+		15F20DDD1F205A3A00E5A542 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DCF1F205A3A00E5A542 /* CollapsibleTableViewHeader.swift */; };
+		15F20DDE1F205A3A00E5A542 /* CreateTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DD01F205A3A00E5A542 /* CreateTeamViewController.swift */; };
+		15F20DDF1F205A3A00E5A542 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DD11F205A3A00E5A542 /* Extensions.swift */; };
+		15F20DE01F205A3A00E5A542 /* PopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DD21F205A3A00E5A542 /* PopCell.swift */; };
+		15F20DE11F205A3A00E5A542 /* PopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20DD31F205A3A00E5A542 /* PopCell.xib */; };
+		15F20DE21F205A3A00E5A542 /* ResendSMSCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DD41F205A3A00E5A542 /* ResendSMSCell.swift */; };
+		15F20DE31F205A3A00E5A542 /* ResendSMSCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20DD51F205A3A00E5A542 /* ResendSMSCell.xib */; };
+		15F20DE41F205A3A00E5A542 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DD61F205A3A00E5A542 /* TeamCell.swift */; };
+		15F20DE51F205A3A00E5A542 /* TeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20DD71F205A3A00E5A542 /* TeamCell.xib */; };
+		15F20DE61F205A3A00E5A542 /* TeamMemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DD81F205A3A00E5A542 /* TeamMemberCell.swift */; };
+		15F20DE71F205A3A00E5A542 /* TeamMemberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20DD91F205A3A00E5A542 /* TeamMemberCell.xib */; };
+		15F20DE81F205A3A00E5A542 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DDA1F205A3A00E5A542 /* TeamViewController.swift */; };
+		15F20DEA1F205D3800E5A542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F20DE91F205D3800E5A542 /* Assets.xcassets */; };
+		15F20DEC1F20818000E5A542 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DEB1F20818000E5A542 /* MineViewController.swift */; };
+		15F20DEE1F20818700E5A542 /* messagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DED1F20818700E5A542 /* messagesCell.swift */; };
+		15F20DF01F20818E00E5A542 /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DEF1F20818E00E5A542 /* message.swift */; };
+		15F20DF21F2090AF00E5A542 /* othersHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DF11F2090AF00E5A542 /* othersHomeViewController.swift */; };
+		15F20DF41F2090C000E5A542 /* WeekRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DF31F2090C000E5A542 /* WeekRankViewController.swift */; };
+		15F20E9E1F209A8A00E5A542 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20DF81F209A8900E5A542 /* AddViewController.swift */; };
+		15F20E9F1F209A8A00E5A542 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20DF91F209A8900E5A542 /* AddViewController.xib */; };
+		15F20EA11F209A8A00E5A542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F20DFB1F209A8900E5A542 /* Assets.xcassets */; };
+		15F20EA41F209A8A00E5A542 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E001F209A8900E5A542 /* Info.plist */; };
+		15F20EA61F209A8A00E5A542 /* AddAttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E031F209A8900E5A542 /* AddAttachmentCell.swift */; };
+		15F20EA71F209A8A00E5A542 /* AddAttachmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E041F209A8900E5A542 /* AddAttachmentCell.xib */; };
+		15F20EA81F209A8A00E5A542 /* AddAttachmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E051F209A8900E5A542 /* AddAttachmentViewController.swift */; };
+		15F20EA91F209A8A00E5A542 /* AddLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E061F209A8900E5A542 /* AddLinkViewController.swift */; };
+		15F20EAA1F209A8A00E5A542 /* AddLinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E071F209A8900E5A542 /* AddLinkViewController.xib */; };
+		15F20EAB1F209A8A00E5A542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E081F209A8900E5A542 /* Assets.xcassets */; };
+		15F20EAC1F209A8A00E5A542 /* buttontest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E091F209A8900E5A542 /* buttontest.xib */; };
+		15F20EAD1F209A8A00E5A542 /* FileAttr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E0A1F209A8900E5A542 /* FileAttr.swift */; };
+		15F20EAE1F209A8A00E5A542 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E0B1F209A8900E5A542 /* Info.plist */; };
+		15F20EAF1F209A8A00E5A542 /* TransportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E0C1F209A8900E5A542 /* TransportViewController.swift */; };
+		15F20EC01F209A8A00E5A542 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E1F1F209A8900E5A542 /* AddPostViewController.swift */; };
+		15F20EC11F209A8A00E5A542 /* AddPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E201F209A8900E5A542 /* AddPostViewController.xib */; };
+		15F20EC21F209A8A00E5A542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E211F209A8900E5A542 /* Assets.xcassets */; };
+		15F20EC31F209A8A00E5A542 /* closeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E221F209A8900E5A542 /* closeIcon.png */; };
+		15F20EC41F209A8A00E5A542 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E231F209A8900E5A542 /* Info.plist */; };
+		15F20EC51F209A8A00E5A542 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E241F209A8900E5A542 /* Post.swift */; };
+		15F20F021F209A8A00E5A542 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E741F209A8A00E5A542 /* GCDWebServer.m */; };
+		15F20F031F209A8A00E5A542 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E761F209A8A00E5A542 /* GCDWebServerConnection.m */; };
+		15F20F041F209A8A00E5A542 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E781F209A8A00E5A542 /* GCDWebServerFunctions.m */; };
+		15F20F051F209A8A00E5A542 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E7C1F209A8A00E5A542 /* GCDWebServerRequest.m */; };
+		15F20F061F209A8A00E5A542 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E7E1F209A8A00E5A542 /* GCDWebServerResponse.m */; };
+		15F20F071F209A8A00E5A542 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E811F209A8A00E5A542 /* GCDWebServerDataRequest.m */; };
+		15F20F081F209A8A00E5A542 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E831F209A8A00E5A542 /* GCDWebServerFileRequest.m */; };
+		15F20F091F209A8A00E5A542 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E851F209A8A00E5A542 /* GCDWebServerMultiPartFormRequest.m */; };
+		15F20F0A1F209A8A00E5A542 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E871F209A8A00E5A542 /* GCDWebServerURLEncodedFormRequest.m */; };
+		15F20F0B1F209A8A00E5A542 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E8A1F209A8A00E5A542 /* GCDWebServerDataResponse.m */; };
+		15F20F0C1F209A8A00E5A542 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E8C1F209A8A00E5A542 /* GCDWebServerErrorResponse.m */; };
+		15F20F0D1F209A8A00E5A542 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E8E1F209A8A00E5A542 /* GCDWebServerFileResponse.m */; };
+		15F20F0E1F209A8A00E5A542 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E901F209A8A00E5A542 /* GCDWebServerStreamedResponse.m */; };
+		15F20F0F1F209A8A00E5A542 /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E921F209A8A00E5A542 /* GCDWebUploader.bundle */; };
+		15F20F101F209A8A00E5A542 /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E941F209A8A00E5A542 /* GCDWebUploader.m */; };
+		15F20F111F209A8A00E5A542 /* AddMentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E961F209A8A00E5A542 /* AddMentionViewController.swift */; };
+		15F20F121F209A8A00E5A542 /* AddSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E971F209A8A00E5A542 /* AddSummaryViewController.swift */; };
+		15F20F131F209A8A00E5A542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E981F209A8A00E5A542 /* Assets.xcassets */; };
+		15F20F141F209A8A00E5A542 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E991F209A8A00E5A542 /* Info.plist */; };
+		15F20F151F209A8A00E5A542 /* LSRatingStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E9A1F209A8A00E5A542 /* LSRatingStar.swift */; };
+		15F20F161F209A8A00E5A542 /* MentionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20E9B1F209A8A00E5A542 /* MentionTableViewCell.swift */; };
+		15F20F171F209A8A00E5A542 /* MentionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20E9C1F209A8A00E5A542 /* MentionTableViewCell.xib */; };
+		15F20F271F209ADD00E5A542 /* CVCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F20F261F209AD100E5A542 /* CVCalendar.framework */; };
+		15F20F281F209ADD00E5A542 /* CVCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15F20F261F209AD100E5A542 /* CVCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		15F20F2E1F209B0B00E5A542 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F20F2D1F209B0B00E5A542 /* libz.tbd */; };
+		15F20F301F209CA600E5A542 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20F2F1F209CA600E5A542 /* SwiftyJSON.swift */; };
+		15F20F431F20ACB400E5A542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15F20F331F20ACB400E5A542 /* Assets.xcassets */; };
+		15F20F461F20ACB400E5A542 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15F20F381F20ACB400E5A542 /* Info.plist */; };
+		15F20F471F20ACB400E5A542 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20F391F20ACB400E5A542 /* Login.swift */; };
+		15F20F481F20ACB400E5A542 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20F3A1F20ACB400E5A542 /* Login.xib */; };
+		15F20F491F20ACB400E5A542 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20F3B1F20ACB400E5A542 /* Signup.swift */; };
+		15F20F4A1F20ACB400E5A542 /* Signup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20F3C1F20ACB400E5A542 /* Signup.xib */; };
+		15F20F4B1F20ACB400E5A542 /* VerificationCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20F3D1F20ACB400E5A542 /* VerificationCode.swift */; };
+		15F20F4C1F20ACB400E5A542 /* VerificationCode.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20F3E1F20ACB400E5A542 /* VerificationCode.xib */; };
+		15F20F4E1F20ACB400E5A542 /* Walkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F20F401F20ACB400E5A542 /* Walkthrough.swift */; };
+		15F20F4F1F20ACB400E5A542 /* Walkthrough.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15F20F411F20ACB400E5A542 /* Walkthrough.xib */; };
+		FCFBC35D1F22589000B827DA /* WeekUp-Photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCFBC35C1F22589000B827DA /* WeekUp-Photo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15F20F251F209AD100E5A542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15F20F211F209AD100E5A542 /* CVCalendar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45D9D8B31C5006AA006673B2;
+			remoteInfo = CVCalendar;
+		};
+		15F20F291F209ADE00E5A542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15F20F211F209AD100E5A542 /* CVCalendar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45D9D8B21C5006AA006673B2;
+			remoteInfo = CVCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15F20F2B1F209ADE00E5A542 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				15F20F281F209ADD00E5A542 /* CVCalendar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		153E69191F21867500E48CB4 /* AddItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemCell.swift; sourceTree = "<group>"; };
+		153E691A1F21867500E48CB4 /* AddItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddItemCell.xib; sourceTree = "<group>"; };
+		153E691B1F21867500E48CB4 /* AllWeekLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllWeekLists.swift; sourceTree = "<group>"; };
+		153E691C1F21867500E48CB4 /* AllWeekLists.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllWeekLists.xib; sourceTree = "<group>"; };
+		153E691E1F21867500E48CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		153E691F1F21867500E48CB4 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		153E69201F21867500E48CB4 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		153E69211F21867500E48CB4 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		153E69221F21867500E48CB4 /* GetSuperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSuperView.swift; sourceTree = "<group>"; };
+		153E69231F21867500E48CB4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153E69241F21867500E48CB4 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		153E69251F21867500E48CB4 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		153E69281F21867500E48CB4 /* NextWeekController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextWeekController.swift; sourceTree = "<group>"; };
+		153E69291F21867500E48CB4 /* NextWeekController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextWeekController.xib; sourceTree = "<group>"; };
+		153E692A1F21867500E48CB4 /* ThisWeekController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThisWeekController.swift; sourceTree = "<group>"; };
+		153E692B1F21867500E48CB4 /* ThisWeekController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThisWeekController.xib; sourceTree = "<group>"; };
+		15F20BB41F2044D000E5A542 /* WeekUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F20BB71F2044D000E5A542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15F20BB91F2044D000E5A542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15F20BBC1F2044D000E5A542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15F20BC11F2044D000E5A542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15F20BC31F2044D000E5A542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F20BC91F20451D00E5A542 /* AllTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTabBarController.swift; sourceTree = "<group>"; };
+		15F20BCB1F20452700E5A542 /* AllNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllNavigationController.swift; sourceTree = "<group>"; };
+		15F20BEF1F20460600E5A542 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		15F20BF01F20460600E5A542 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		15F20BF11F20460600E5A542 /* EditTeamTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTeamTableCell.swift; sourceTree = "<group>"; };
+		15F20BF21F20460600E5A542 /* EditTeamTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditTeamTableCell.xib; sourceTree = "<group>"; };
+		15F20BF31F20460600E5A542 /* EditTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTeamViewController.swift; sourceTree = "<group>"; };
+		15F20BF41F20460600E5A542 /* RankTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankTableCell.swift; sourceTree = "<group>"; };
+		15F20BF51F20460600E5A542 /* RankTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankTableCell.xib; sourceTree = "<group>"; };
+		15F20BF61F20460600E5A542 /* RankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		15F20BF81F20460600E5A542 /* YSSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSSegmentedControl.swift; sourceTree = "<group>"; };
+		15F20BF91F20460600E5A542 /* TimeToUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeToUp.swift; sourceTree = "<group>"; };
+		15F20BFA1F20460600E5A542 /* TimeToUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeToUp.xib; sourceTree = "<group>"; };
+		15F20BFB1F20460600E5A542 /* UpTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpTableCell.swift; sourceTree = "<group>"; };
+		15F20BFC1F20460600E5A542 /* UpTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpTableCell.xib; sourceTree = "<group>"; };
+		15F20BFD1F20460600E5A542 /* UpTableHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpTableHead.swift; sourceTree = "<group>"; };
+		15F20BFE1F20460600E5A542 /* UpTableHead.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpTableHead.xib; sourceTree = "<group>"; };
+		15F20BFF1F20460600E5A542 /* UpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpViewController.swift; sourceTree = "<group>"; };
+		15F20C001F20460600E5A542 /* WeekRankTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekRankTableCell.swift; sourceTree = "<group>"; };
+		15F20C011F20460600E5A542 /* WeekRankTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeekRankTableCell.xib; sourceTree = "<group>"; };
+		15F20C181F20463900E5A542 /* PPBadgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPBadgeLabel.swift; sourceTree = "<group>"; };
+		15F20C191F20463900E5A542 /* UIBarButtonItem+PPBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+PPBadgeView.swift"; sourceTree = "<group>"; };
+		15F20C1A1F20463900E5A542 /* UITabBarItem+PPBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+PPBadgeView.swift"; sourceTree = "<group>"; };
+		15F20C1B1F20463900E5A542 /* UIView+PPBadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+PPBadgeView.swift"; sourceTree = "<group>"; };
+		15F20C241F20464800E5A542 /* checklistDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checklistDetailsCell.swift; sourceTree = "<group>"; };
+		15F20C251F20464800E5A542 /* checklistDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = checklistDetailsCell.xib; sourceTree = "<group>"; };
+		15F20C261F20464800E5A542 /* checklistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checklistTableViewCell.swift; sourceTree = "<group>"; };
+		15F20C271F20464800E5A542 /* checklistTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = checklistTableViewCell.xib; sourceTree = "<group>"; };
+		15F20C281F20464800E5A542 /* showTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showTableViewCell.swift; sourceTree = "<group>"; };
+		15F20C291F20464800E5A542 /* showTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = showTableViewCell.xib; sourceTree = "<group>"; };
+		15F20C2A1F20464800E5A542 /* WeekUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekUpViewController.swift; sourceTree = "<group>"; };
+		15F20C381F20473400E5A542 /* activitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activitiesViewController.swift; sourceTree = "<group>"; };
+		15F20C391F20473400E5A542 /* activityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityCell.swift; sourceTree = "<group>"; };
+		15F20C3A1F20473400E5A542 /* activityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = activityCell.xib; sourceTree = "<group>"; };
+		15F20C3C1F20473400E5A542 /* messagesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = messagesCell.xib; sourceTree = "<group>"; };
+		15F20C3F1F20473400E5A542 /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		15F20C401F20473400E5A542 /* settingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		15F20C411F20473400E5A542 /* weekCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weekCell.swift; sourceTree = "<group>"; };
+		15F20C421F20473400E5A542 /* weekCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = weekCell.xib; sourceTree = "<group>"; };
+		15F20DCD1F205A3A00E5A542 /* AddedUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddedUserCell.swift; sourceTree = "<group>"; };
+		15F20DCE1F205A3A00E5A542 /* AddedUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddedUserCell.xib; sourceTree = "<group>"; };
+		15F20DCF1F205A3A00E5A542 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		15F20DD01F205A3A00E5A542 /* CreateTeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTeamViewController.swift; sourceTree = "<group>"; };
+		15F20DD11F205A3A00E5A542 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		15F20DD21F205A3A00E5A542 /* PopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopCell.swift; sourceTree = "<group>"; };
+		15F20DD31F205A3A00E5A542 /* PopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopCell.xib; sourceTree = "<group>"; };
+		15F20DD41F205A3A00E5A542 /* ResendSMSCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResendSMSCell.swift; sourceTree = "<group>"; };
+		15F20DD51F205A3A00E5A542 /* ResendSMSCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResendSMSCell.xib; sourceTree = "<group>"; };
+		15F20DD61F205A3A00E5A542 /* TeamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		15F20DD71F205A3A00E5A542 /* TeamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamCell.xib; sourceTree = "<group>"; };
+		15F20DD81F205A3A00E5A542 /* TeamMemberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMemberCell.swift; sourceTree = "<group>"; };
+		15F20DD91F205A3A00E5A542 /* TeamMemberCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamMemberCell.xib; sourceTree = "<group>"; };
+		15F20DDA1F205A3A00E5A542 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		15F20DE91F205D3800E5A542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15F20DEB1F20818000E5A542 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		15F20DED1F20818700E5A542 /* messagesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = messagesCell.swift; sourceTree = "<group>"; };
+		15F20DEF1F20818E00E5A542 /* message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
+		15F20DF11F2090AF00E5A542 /* othersHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = othersHomeViewController.swift; sourceTree = "<group>"; };
+		15F20DF31F2090C000E5A542 /* WeekRankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekRankViewController.swift; sourceTree = "<group>"; };
+		15F20DF81F209A8900E5A542 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		15F20DF91F209A8900E5A542 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		15F20DFB1F209A8900E5A542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15F20E001F209A8900E5A542 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F20E031F209A8900E5A542 /* AddAttachmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAttachmentCell.swift; sourceTree = "<group>"; };
+		15F20E041F209A8900E5A542 /* AddAttachmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAttachmentCell.xib; sourceTree = "<group>"; };
+		15F20E051F209A8900E5A542 /* AddAttachmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAttachmentViewController.swift; sourceTree = "<group>"; };
+		15F20E061F209A8900E5A542 /* AddLinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLinkViewController.swift; sourceTree = "<group>"; };
+		15F20E071F209A8900E5A542 /* AddLinkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddLinkViewController.xib; sourceTree = "<group>"; };
+		15F20E081F209A8900E5A542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15F20E091F209A8900E5A542 /* buttontest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = buttontest.xib; sourceTree = "<group>"; };
+		15F20E0A1F209A8900E5A542 /* FileAttr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileAttr.swift; sourceTree = "<group>"; };
+		15F20E0B1F209A8900E5A542 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F20E0C1F209A8900E5A542 /* TransportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportViewController.swift; sourceTree = "<group>"; };
+		15F20E1F1F209A8900E5A542 /* AddPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		15F20E201F209A8900E5A542 /* AddPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPostViewController.xib; sourceTree = "<group>"; };
+		15F20E211F209A8900E5A542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15F20E221F209A8900E5A542 /* closeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeIcon.png; sourceTree = "<group>"; };
+		15F20E231F209A8900E5A542 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F20E241F209A8900E5A542 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		15F20E731F209A8A00E5A542 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		15F20E741F209A8A00E5A542 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		15F20E751F209A8A00E5A542 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		15F20E761F209A8A00E5A542 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		15F20E771F209A8A00E5A542 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		15F20E781F209A8A00E5A542 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		15F20E791F209A8A00E5A542 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		15F20E7A1F209A8A00E5A542 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		15F20E7B1F209A8A00E5A542 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		15F20E7C1F209A8A00E5A542 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		15F20E7D1F209A8A00E5A542 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		15F20E7E1F209A8A00E5A542 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		15F20E801F209A8A00E5A542 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		15F20E811F209A8A00E5A542 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		15F20E821F209A8A00E5A542 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		15F20E831F209A8A00E5A542 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		15F20E841F209A8A00E5A542 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		15F20E851F209A8A00E5A542 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		15F20E861F209A8A00E5A542 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		15F20E871F209A8A00E5A542 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		15F20E891F209A8A00E5A542 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		15F20E8A1F209A8A00E5A542 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		15F20E8B1F209A8A00E5A542 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		15F20E8C1F209A8A00E5A542 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		15F20E8D1F209A8A00E5A542 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		15F20E8E1F209A8A00E5A542 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		15F20E8F1F209A8A00E5A542 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		15F20E901F209A8A00E5A542 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		15F20E921F209A8A00E5A542 /* GCDWebUploader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GCDWebUploader.bundle; sourceTree = "<group>"; };
+		15F20E931F209A8A00E5A542 /* GCDWebUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebUploader.h; sourceTree = "<group>"; };
+		15F20E941F209A8A00E5A542 /* GCDWebUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebUploader.m; sourceTree = "<group>"; };
+		15F20E961F209A8A00E5A542 /* AddMentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMentionViewController.swift; sourceTree = "<group>"; };
+		15F20E971F209A8A00E5A542 /* AddSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSummaryViewController.swift; sourceTree = "<group>"; };
+		15F20E981F209A8A00E5A542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15F20E991F209A8A00E5A542 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F20E9A1F209A8A00E5A542 /* LSRatingStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSRatingStar.swift; sourceTree = "<group>"; };
+		15F20E9B1F209A8A00E5A542 /* MentionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionTableViewCell.swift; sourceTree = "<group>"; };
+		15F20E9C1F209A8A00E5A542 /* MentionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MentionTableViewCell.xib; sourceTree = "<group>"; };
+		15F20E9D1F209A8A00E5A542 /* Transport-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Transport-Bridging-Header.h"; sourceTree = "<group>"; };
+		15F20F211F209AD100E5A542 /* CVCalendar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CVCalendar.xcodeproj; path = Add/CVCalendar/CVCalendar.xcodeproj; sourceTree = "<group>"; };
+		15F20F2D1F209B0B00E5A542 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		15F20F2F1F209CA600E5A542 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		15F20F331F20ACB400E5A542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15F20F381F20ACB400E5A542 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15F20F391F20ACB400E5A542 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		15F20F3A1F20ACB400E5A542 /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		15F20F3B1F20ACB400E5A542 /* Signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		15F20F3C1F20ACB400E5A542 /* Signup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Signup.xib; sourceTree = "<group>"; };
+		15F20F3D1F20ACB400E5A542 /* VerificationCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCode.swift; sourceTree = "<group>"; };
+		15F20F3E1F20ACB400E5A542 /* VerificationCode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationCode.xib; sourceTree = "<group>"; };
+		15F20F401F20ACB400E5A542 /* Walkthrough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walkthrough.swift; sourceTree = "<group>"; };
+		15F20F411F20ACB400E5A542 /* Walkthrough.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Walkthrough.xib; sourceTree = "<group>"; };
+		FCFBC35C1F22589000B827DA /* WeekUp-Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WeekUp-Photo.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15F20BB11F2044D000E5A542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F20F2E1F209B0B00E5A542 /* libz.tbd in Frameworks */,
+				15F20F271F209ADD00E5A542 /* CVCalendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153E69181F21867500E48CB4 /* AddPartChecklist */ = {
+			isa = PBXGroup;
+			children = (
+				153E69191F21867500E48CB4 /* AddItemCell.swift */,
+				153E691A1F21867500E48CB4 /* AddItemCell.xib */,
+				153E691B1F21867500E48CB4 /* AllWeekLists.swift */,
+				153E691C1F21867500E48CB4 /* AllWeekLists.xib */,
+				153E691E1F21867500E48CB4 /* Assets.xcassets */,
+				153E691F1F21867500E48CB4 /* Checklist.swift */,
+				153E69201F21867500E48CB4 /* ChecklistItem.swift */,
+				153E69211F21867500E48CB4 /* DataModel.swift */,
+				153E69221F21867500E48CB4 /* GetSuperView.swift */,
+				153E69231F21867500E48CB4 /* Info.plist */,
+				153E69241F21867500E48CB4 /* ListCell.swift */,
+				153E69251F21867500E48CB4 /* ListCell.xib */,
+				153E69281F21867500E48CB4 /* NextWeekController.swift */,
+				153E69291F21867500E48CB4 /* NextWeekController.xib */,
+				153E692A1F21867500E48CB4 /* ThisWeekController.swift */,
+				153E692B1F21867500E48CB4 /* ThisWeekController.xib */,
+			);
+			path = AddPartChecklist;
+			sourceTree = "<group>";
+		};
+		15F20BAB1F2044D000E5A542 = {
+			isa = PBXGroup;
+			children = (
+				FCFBC35C1F22589000B827DA /* WeekUp-Photo.jpg */,
+				15F20F311F20ACB400E5A542 /* LoginViewController */,
+				15F20F211F209AD100E5A542 /* CVCalendar.xcodeproj */,
+				15F20DF61F209A8900E5A542 /* Add */,
+				15F20DF51F2099ED00E5A542 /* Main */,
+				15F20BB61F2044D000E5A542 /* WeekUp */,
+				15F20BB51F2044D000E5A542 /* Products */,
+				15F20F2C1F209B0A00E5A542 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15F20BB51F2044D000E5A542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15F20BB41F2044D000E5A542 /* WeekUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15F20BB61F2044D000E5A542 /* WeekUp */ = {
+			isa = PBXGroup;
+			children = (
+				15F20DE91F205D3800E5A542 /* Assets.xcassets */,
+				15F20BCB1F20452700E5A542 /* AllNavigationController.swift */,
+				15F20BC91F20451D00E5A542 /* AllTabBarController.swift */,
+				15F20BB71F2044D000E5A542 /* AppDelegate.swift */,
+				15F20BB91F2044D000E5A542 /* ViewController.swift */,
+				15F20BBB1F2044D000E5A542 /* Main.storyboard */,
+				15F20BC01F2044D000E5A542 /* LaunchScreen.storyboard */,
+				15F20BC31F2044D000E5A542 /* Info.plist */,
+			);
+			path = WeekUp;
+			sourceTree = "<group>";
+		};
+		15F20BE91F20460500E5A542 /* RankViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15F20BF71F20460600E5A542 /* SegmentedController */,
+				15F20BEE1F20460600E5A542 /* CircleProgressController */,
+				15F20DF31F2090C000E5A542 /* WeekRankViewController.swift */,
+				15F20BF11F20460600E5A542 /* EditTeamTableCell.swift */,
+				15F20BF21F20460600E5A542 /* EditTeamTableCell.xib */,
+				15F20BF31F20460600E5A542 /* EditTeamViewController.swift */,
+				15F20BF41F20460600E5A542 /* RankTableCell.swift */,
+				15F20BF51F20460600E5A542 /* RankTableCell.xib */,
+				15F20BF61F20460600E5A542 /* RankViewController.swift */,
+				15F20BF91F20460600E5A542 /* TimeToUp.swift */,
+				15F20BFA1F20460600E5A542 /* TimeToUp.xib */,
+				15F20BFB1F20460600E5A542 /* UpTableCell.swift */,
+				15F20BFC1F20460600E5A542 /* UpTableCell.xib */,
+				15F20BFD1F20460600E5A542 /* UpTableHead.swift */,
+				15F20BFE1F20460600E5A542 /* UpTableHead.xib */,
+				15F20BFF1F20460600E5A542 /* UpViewController.swift */,
+				15F20C001F20460600E5A542 /* WeekRankTableCell.swift */,
+				15F20C011F20460600E5A542 /* WeekRankTableCell.xib */,
+			);
+			path = RankViewController;
+			sourceTree = "<group>";
+		};
+		15F20BEE1F20460600E5A542 /* CircleProgressController */ = {
+			isa = PBXGroup;
+			children = (
+				15F20BEF1F20460600E5A542 /* CircleProgressView.h */,
+				15F20BF01F20460600E5A542 /* CircleProgressView.swift */,
+			);
+			path = CircleProgressController;
+			sourceTree = "<group>";
+		};
+		15F20BF71F20460600E5A542 /* SegmentedController */ = {
+			isa = PBXGroup;
+			children = (
+				15F20BF81F20460600E5A542 /* YSSegmentedControl.swift */,
+			);
+			path = SegmentedController;
+			sourceTree = "<group>";
+		};
+		15F20C171F20463900E5A542 /* swift2 */ = {
+			isa = PBXGroup;
+			children = (
+				15F20C181F20463900E5A542 /* PPBadgeLabel.swift */,
+				15F20C191F20463900E5A542 /* UIBarButtonItem+PPBadgeView.swift */,
+				15F20C1A1F20463900E5A542 /* UITabBarItem+PPBadgeView.swift */,
+				15F20C1B1F20463900E5A542 /* UIView+PPBadgeView.swift */,
+			);
+			path = swift2;
+			sourceTree = "<group>";
+		};
+		15F20C231F20464800E5A542 /* WeekUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15F20C241F20464800E5A542 /* checklistDetailsCell.swift */,
+				15F20C251F20464800E5A542 /* checklistDetailsCell.xib */,
+				15F20C261F20464800E5A542 /* checklistTableViewCell.swift */,
+				15F20C271F20464800E5A542 /* checklistTableViewCell.xib */,
+				15F20C281F20464800E5A542 /* showTableViewCell.swift */,
+				15F20C291F20464800E5A542 /* showTableViewCell.xib */,
+				15F20C2A1F20464800E5A542 /* WeekUpViewController.swift */,
+			);
+			path = WeekUpViewController;
+			sourceTree = "<group>";
+		};
+		15F20C371F20473400E5A542 /* MineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15F20DF11F2090AF00E5A542 /* othersHomeViewController.swift */,
+				15F20DEF1F20818E00E5A542 /* message.swift */,
+				15F20DED1F20818700E5A542 /* messagesCell.swift */,
+				15F20DEB1F20818000E5A542 /* MineViewController.swift */,
+				15F20C381F20473400E5A542 /* activitiesViewController.swift */,
+				15F20C391F20473400E5A542 /* activityCell.swift */,
+				15F20C3A1F20473400E5A542 /* activityCell.xib */,
+				15F20C3C1F20473400E5A542 /* messagesCell.xib */,
+				15F20C3F1F20473400E5A542 /* profileViewController.swift */,
+				15F20C401F20473400E5A542 /* settingViewController.swift */,
+				15F20C411F20473400E5A542 /* weekCell.swift */,
+				15F20C421F20473400E5A542 /* weekCell.xib */,
+			);
+			path = MineViewController;
+			sourceTree = "<group>";
+		};
+		15F20DCC1F205A3A00E5A542 /* TeamViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15F20DCD1F205A3A00E5A542 /* AddedUserCell.swift */,
+				15F20DCE1F205A3A00E5A542 /* AddedUserCell.xib */,
+				15F20DCF1F205A3A00E5A542 /* CollapsibleTableViewHeader.swift */,
+				15F20DD01F205A3A00E5A542 /* CreateTeamViewController.swift */,
+				15F20DD11F205A3A00E5A542 /* Extensions.swift */,
+				15F20DD21F205A3A00E5A542 /* PopCell.swift */,
+				15F20DD31F205A3A00E5A542 /* PopCell.xib */,
+				15F20DD41F205A3A00E5A542 /* ResendSMSCell.swift */,
+				15F20DD51F205A3A00E5A542 /* ResendSMSCell.xib */,
+				15F20DD61F205A3A00E5A542 /* TeamCell.swift */,
+				15F20DD71F205A3A00E5A542 /* TeamCell.xib */,
+				15F20DD81F205A3A00E5A542 /* TeamMemberCell.swift */,
+				15F20DD91F205A3A00E5A542 /* TeamMemberCell.xib */,
+				15F20DDA1F205A3A00E5A542 /* TeamViewController.swift */,
+			);
+			path = TeamViewController;
+			sourceTree = "<group>";
+		};
+		15F20DF51F2099ED00E5A542 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				15F20DCC1F205A3A00E5A542 /* TeamViewController */,
+				15F20C371F20473400E5A542 /* MineViewController */,
+				15F20C231F20464800E5A542 /* WeekUpViewController */,
+				15F20C171F20463900E5A542 /* swift2 */,
+				15F20BE91F20460500E5A542 /* RankViewController */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		15F20DF61F209A8900E5A542 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				153E69181F21867500E48CB4 /* AddPartChecklist */,
+				15F20DF71F209A8900E5A542 /* Add */,
+				15F20E021F209A8900E5A542 /* Add_Link */,
+				15F20E1E1F209A8900E5A542 /* Addpost */,
+				15F20E711F209A8A00E5A542 /* GCDWebServer */,
+				15F20E911F209A8A00E5A542 /* GCDWebUploader */,
+				15F20E951F209A8A00E5A542 /* ratingsrar */,
+				15F20E9D1F209A8A00E5A542 /* Transport-Bridging-Header.h */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		15F20DF71F209A8900E5A542 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				15F20F2F1F209CA600E5A542 /* SwiftyJSON.swift */,
+				15F20DF81F209A8900E5A542 /* AddViewController.swift */,
+				15F20DF91F209A8900E5A542 /* AddViewController.xib */,
+				15F20DFB1F209A8900E5A542 /* Assets.xcassets */,
+				15F20E001F209A8900E5A542 /* Info.plist */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		15F20E021F209A8900E5A542 /* Add_Link */ = {
+			isa = PBXGroup;
+			children = (
+				15F20E031F209A8900E5A542 /* AddAttachmentCell.swift */,
+				15F20E041F209A8900E5A542 /* AddAttachmentCell.xib */,
+				15F20E051F209A8900E5A542 /* AddAttachmentViewController.swift */,
+				15F20E061F209A8900E5A542 /* AddLinkViewController.swift */,
+				15F20E071F209A8900E5A542 /* AddLinkViewController.xib */,
+				15F20E081F209A8900E5A542 /* Assets.xcassets */,
+				15F20E091F209A8900E5A542 /* buttontest.xib */,
+				15F20E0A1F209A8900E5A542 /* FileAttr.swift */,
+				15F20E0B1F209A8900E5A542 /* Info.plist */,
+				15F20E0C1F209A8900E5A542 /* TransportViewController.swift */,
+			);
+			path = Add_Link;
+			sourceTree = "<group>";
+		};
+		15F20E1E1F209A8900E5A542 /* Addpost */ = {
+			isa = PBXGroup;
+			children = (
+				15F20E1F1F209A8900E5A542 /* AddPostViewController.swift */,
+				15F20E201F209A8900E5A542 /* AddPostViewController.xib */,
+				15F20E211F209A8900E5A542 /* Assets.xcassets */,
+				15F20E221F209A8900E5A542 /* closeIcon.png */,
+				15F20E231F209A8900E5A542 /* Info.plist */,
+				15F20E241F209A8900E5A542 /* Post.swift */,
+			);
+			path = Addpost;
+			sourceTree = "<group>";
+		};
+		15F20E711F209A8A00E5A542 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				15F20E721F209A8A00E5A542 /* Core */,
+				15F20E7F1F209A8A00E5A542 /* Requests */,
+				15F20E881F209A8A00E5A542 /* Responses */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		15F20E721F209A8A00E5A542 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				15F20E731F209A8A00E5A542 /* GCDWebServer.h */,
+				15F20E741F209A8A00E5A542 /* GCDWebServer.m */,
+				15F20E751F209A8A00E5A542 /* GCDWebServerConnection.h */,
+				15F20E761F209A8A00E5A542 /* GCDWebServerConnection.m */,
+				15F20E771F209A8A00E5A542 /* GCDWebServerFunctions.h */,
+				15F20E781F209A8A00E5A542 /* GCDWebServerFunctions.m */,
+				15F20E791F209A8A00E5A542 /* GCDWebServerHTTPStatusCodes.h */,
+				15F20E7A1F209A8A00E5A542 /* GCDWebServerPrivate.h */,
+				15F20E7B1F209A8A00E5A542 /* GCDWebServerRequest.h */,
+				15F20E7C1F209A8A00E5A542 /* GCDWebServerRequest.m */,
+				15F20E7D1F209A8A00E5A542 /* GCDWebServerResponse.h */,
+				15F20E7E1F209A8A00E5A542 /* GCDWebServerResponse.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		15F20E7F1F209A8A00E5A542 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				15F20E801F209A8A00E5A542 /* GCDWebServerDataRequest.h */,
+				15F20E811F209A8A00E5A542 /* GCDWebServerDataRequest.m */,
+				15F20E821F209A8A00E5A542 /* GCDWebServerFileRequest.h */,
+				15F20E831F209A8A00E5A542 /* GCDWebServerFileRequest.m */,
+				15F20E841F209A8A00E5A542 /* GCDWebServerMultiPartFormRequest.h */,
+				15F20E851F209A8A00E5A542 /* GCDWebServerMultiPartFormRequest.m */,
+				15F20E861F209A8A00E5A542 /* GCDWebServerURLEncodedFormRequest.h */,
+				15F20E871F209A8A00E5A542 /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		15F20E881F209A8A00E5A542 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				15F20E891F209A8A00E5A542 /* GCDWebServerDataResponse.h */,
+				15F20E8A1F209A8A00E5A542 /* GCDWebServerDataResponse.m */,
+				15F20E8B1F209A8A00E5A542 /* GCDWebServerErrorResponse.h */,
+				15F20E8C1F209A8A00E5A542 /* GCDWebServerErrorResponse.m */,
+				15F20E8D1F209A8A00E5A542 /* GCDWebServerFileResponse.h */,
+				15F20E8E1F209A8A00E5A542 /* GCDWebServerFileResponse.m */,
+				15F20E8F1F209A8A00E5A542 /* GCDWebServerStreamedResponse.h */,
+				15F20E901F209A8A00E5A542 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		15F20E911F209A8A00E5A542 /* GCDWebUploader */ = {
+			isa = PBXGroup;
+			children = (
+				15F20E921F209A8A00E5A542 /* GCDWebUploader.bundle */,
+				15F20E931F209A8A00E5A542 /* GCDWebUploader.h */,
+				15F20E941F209A8A00E5A542 /* GCDWebUploader.m */,
+			);
+			path = GCDWebUploader;
+			sourceTree = "<group>";
+		};
+		15F20E951F209A8A00E5A542 /* ratingsrar */ = {
+			isa = PBXGroup;
+			children = (
+				15F20E961F209A8A00E5A542 /* AddMentionViewController.swift */,
+				15F20E971F209A8A00E5A542 /* AddSummaryViewController.swift */,
+				15F20E981F209A8A00E5A542 /* Assets.xcassets */,
+				15F20E991F209A8A00E5A542 /* Info.plist */,
+				15F20E9A1F209A8A00E5A542 /* LSRatingStar.swift */,
+				15F20E9B1F209A8A00E5A542 /* MentionTableViewCell.swift */,
+				15F20E9C1F209A8A00E5A542 /* MentionTableViewCell.xib */,
+			);
+			path = ratingsrar;
+			sourceTree = "<group>";
+		};
+		15F20F221F209AD100E5A542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15F20F261F209AD100E5A542 /* CVCalendar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15F20F2C1F209B0A00E5A542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15F20F2D1F209B0B00E5A542 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15F20F311F20ACB400E5A542 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15F20F331F20ACB400E5A542 /* Assets.xcassets */,
+				15F20F381F20ACB400E5A542 /* Info.plist */,
+				15F20F391F20ACB400E5A542 /* Login.swift */,
+				15F20F3A1F20ACB400E5A542 /* Login.xib */,
+				15F20F3B1F20ACB400E5A542 /* Signup.swift */,
+				15F20F3C1F20ACB400E5A542 /* Signup.xib */,
+				15F20F3D1F20ACB400E5A542 /* VerificationCode.swift */,
+				15F20F3E1F20ACB400E5A542 /* VerificationCode.xib */,
+				15F20F401F20ACB400E5A542 /* Walkthrough.swift */,
+				15F20F411F20ACB400E5A542 /* Walkthrough.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15F20BB31F2044D000E5A542 /* WeekUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F20BC61F2044D000E5A542 /* Build configuration list for PBXNativeTarget "WeekUp" */;
+			buildPhases = (
+				15F20BB01F2044D000E5A542 /* Sources */,
+				15F20BB11F2044D000E5A542 /* Frameworks */,
+				15F20BB21F2044D000E5A542 /* Resources */,
+				15F20F2B1F209ADE00E5A542 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15F20F2A1F209ADE00E5A542 /* PBXTargetDependency */,
+			);
+			name = WeekUp;
+			productName = WeekUp;
+			productReference = 15F20BB41F2044D000E5A542 /* WeekUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15F20BAC1F2044D000E5A542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = android;
+				TargetAttributes = {
+					15F20BB31F2044D000E5A542 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 15F20BAF1F2044D000E5A542 /* Build configuration list for PBXProject "WeekUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15F20BAB1F2044D000E5A542;
+			productRefGroup = 15F20BB51F2044D000E5A542 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 15F20F221F209AD100E5A542 /* Products */;
+					ProjectRef = 15F20F211F209AD100E5A542 /* CVCalendar.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				15F20BB31F2044D000E5A542 /* WeekUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		15F20F261F209AD100E5A542 /* CVCalendar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CVCalendar.framework;
+			remoteRef = 15F20F251F209AD100E5A542 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15F20BB21F2044D000E5A542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F20DE11F205A3A00E5A542 /* PopCell.xib in Resources */,
+				15F20BC21F2044D000E5A542 /* LaunchScreen.storyboard in Resources */,
+				15F20F431F20ACB400E5A542 /* Assets.xcassets in Resources */,
+				15F20EA11F209A8A00E5A542 /* Assets.xcassets in Resources */,
+				15F20EA71F209A8A00E5A542 /* AddAttachmentCell.xib in Resources */,
+				15F20DE71F205A3A00E5A542 /* TeamMemberCell.xib in Resources */,
+				15F20C101F20460600E5A542 /* UpTableCell.xib in Resources */,
+				15F20F131F209A8A00E5A542 /* Assets.xcassets in Resources */,
+				15F20F461F20ACB400E5A542 /* Info.plist in Resources */,
+				153E693E1F21867500E48CB4 /* ThisWeekController.xib in Resources */,
+				15F20F0F1F209A8A00E5A542 /* GCDWebUploader.bundle in Resources */,
+				153E69361F21867500E48CB4 /* Info.plist in Resources */,
+				15F20C151F20460600E5A542 /* WeekRankTableCell.xib in Resources */,
+				15F20EAE1F209A8A00E5A542 /* Info.plist in Resources */,
+				15F20DDC1F205A3A00E5A542 /* AddedUserCell.xib in Resources */,
+				153E692F1F21867500E48CB4 /* AllWeekLists.xib in Resources */,
+				15F20EC41F209A8A00E5A542 /* Info.plist in Resources */,
+				15F20C2E1F20464800E5A542 /* checklistTableViewCell.xib in Resources */,
+				15F20C451F20473400E5A542 /* activityCell.xib in Resources */,
+				15F20F4A1F20ACB400E5A542 /* Signup.xib in Resources */,
+				15F20F4C1F20ACB400E5A542 /* VerificationCode.xib in Resources */,
+				15F20EAA1F209A8A00E5A542 /* AddLinkViewController.xib in Resources */,
+				15F20C071F20460600E5A542 /* EditTeamTableCell.xib in Resources */,
+				15F20EC21F209A8A00E5A542 /* Assets.xcassets in Resources */,
+				15F20C0A1F20460600E5A542 /* RankTableCell.xib in Resources */,
+				15F20C2C1F20464800E5A542 /* checklistDetailsCell.xib in Resources */,
+				15F20C121F20460600E5A542 /* UpTableHead.xib in Resources */,
+				15F20EC31F209A8A00E5A542 /* closeIcon.png in Resources */,
+				15F20F171F209A8A00E5A542 /* MentionTableViewCell.xib in Resources */,
+				15F20E9F1F209A8A00E5A542 /* AddViewController.xib in Resources */,
+				15F20F141F209A8A00E5A542 /* Info.plist in Resources */,
+				15F20EAB1F209A8A00E5A542 /* Assets.xcassets in Resources */,
+				15F20DE31F205A3A00E5A542 /* ResendSMSCell.xib in Resources */,
+				15F20F4F1F20ACB400E5A542 /* Walkthrough.xib in Resources */,
+				153E692D1F21867500E48CB4 /* AddItemCell.xib in Resources */,
+				15F20C4D1F20473400E5A542 /* weekCell.xib in Resources */,
+				153E69311F21867500E48CB4 /* Assets.xcassets in Resources */,
+				153E69381F21867500E48CB4 /* ListCell.xib in Resources */,
+				15F20F481F20ACB400E5A542 /* Login.xib in Resources */,
+				15F20DEA1F205D3800E5A542 /* Assets.xcassets in Resources */,
+				15F20BBD1F2044D000E5A542 /* Main.storyboard in Resources */,
+				15F20EAC1F209A8A00E5A542 /* buttontest.xib in Resources */,
+				15F20C471F20473400E5A542 /* messagesCell.xib in Resources */,
+				153E693C1F21867500E48CB4 /* NextWeekController.xib in Resources */,
+				15F20C0E1F20460600E5A542 /* TimeToUp.xib in Resources */,
+				FCFBC35D1F22589000B827DA /* WeekUp-Photo.jpg in Resources */,
+				15F20C301F20464800E5A542 /* showTableViewCell.xib in Resources */,
+				15F20EC11F209A8A00E5A542 /* AddPostViewController.xib in Resources */,
+				15F20EA41F209A8A00E5A542 /* Info.plist in Resources */,
+				15F20DE51F205A3A00E5A542 /* TeamCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15F20BB01F2044D000E5A542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F20F4E1F20ACB400E5A542 /* Walkthrough.swift in Sources */,
+				15F20C0C1F20460600E5A542 /* YSSegmentedControl.swift in Sources */,
+				15F20C2B1F20464800E5A542 /* checklistDetailsCell.swift in Sources */,
+				153E692E1F21867500E48CB4 /* AllWeekLists.swift in Sources */,
+				15F20DF21F2090AF00E5A542 /* othersHomeViewController.swift in Sources */,
+				15F20F081F209A8A00E5A542 /* GCDWebServerFileRequest.m in Sources */,
+				15F20C1E1F20463900E5A542 /* UITabBarItem+PPBadgeView.swift in Sources */,
+				15F20DE61F205A3A00E5A542 /* TeamMemberCell.swift in Sources */,
+				15F20C131F20460600E5A542 /* UpViewController.swift in Sources */,
+				15F20C4C1F20473400E5A542 /* weekCell.swift in Sources */,
+				15F20DDB1F205A3A00E5A542 /* AddedUserCell.swift in Sources */,
+				15F20F161F209A8A00E5A542 /* MentionTableViewCell.swift in Sources */,
+				15F20EC01F209A8A00E5A542 /* AddPostViewController.swift in Sources */,
+				15F20F0A1F209A8A00E5A542 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				15F20DDF1F205A3A00E5A542 /* Extensions.swift in Sources */,
+				15F20F061F209A8A00E5A542 /* GCDWebServerResponse.m in Sources */,
+				15F20C1F1F20463900E5A542 /* UIView+PPBadgeView.swift in Sources */,
+				15F20C0D1F20460600E5A542 /* TimeToUp.swift in Sources */,
+				15F20F0B1F209A8A00E5A542 /* GCDWebServerDataResponse.m in Sources */,
+				153E69331F21867500E48CB4 /* ChecklistItem.swift in Sources */,
+				15F20F111F209A8A00E5A542 /* AddMentionViewController.swift in Sources */,
+				153E69321F21867500E48CB4 /* Checklist.swift in Sources */,
+				15F20DEE1F20818700E5A542 /* messagesCell.swift in Sources */,
+				15F20F301F209CA600E5A542 /* SwiftyJSON.swift in Sources */,
+				15F20EA81F209A8A00E5A542 /* AddAttachmentViewController.swift in Sources */,
+				15F20C0B1F20460600E5A542 /* RankViewController.swift in Sources */,
+				15F20C431F20473400E5A542 /* activitiesViewController.swift in Sources */,
+				15F20C2F1F20464800E5A542 /* showTableViewCell.swift in Sources */,
+				15F20F0E1F209A8A00E5A542 /* GCDWebServerStreamedResponse.m in Sources */,
+				15F20F151F209A8A00E5A542 /* LSRatingStar.swift in Sources */,
+				15F20DE81F205A3A00E5A542 /* TeamViewController.swift in Sources */,
+				15F20F041F209A8A00E5A542 /* GCDWebServerFunctions.m in Sources */,
+				15F20F471F20ACB400E5A542 /* Login.swift in Sources */,
+				153E693B1F21867500E48CB4 /* NextWeekController.swift in Sources */,
+				15F20C081F20460600E5A542 /* EditTeamViewController.swift in Sources */,
+				15F20DEC1F20818000E5A542 /* MineViewController.swift in Sources */,
+				153E692C1F21867500E48CB4 /* AddItemCell.swift in Sources */,
+				15F20E9E1F209A8A00E5A542 /* AddViewController.swift in Sources */,
+				15F20C051F20460600E5A542 /* CircleProgressView.swift in Sources */,
+				153E69341F21867500E48CB4 /* DataModel.swift in Sources */,
+				15F20F4B1F20ACB400E5A542 /* VerificationCode.swift in Sources */,
+				15F20C111F20460600E5A542 /* UpTableHead.swift in Sources */,
+				15F20F0D1F209A8A00E5A542 /* GCDWebServerFileResponse.m in Sources */,
+				15F20F021F209A8A00E5A542 /* GCDWebServer.m in Sources */,
+				15F20F491F20ACB400E5A542 /* Signup.swift in Sources */,
+				15F20DF41F2090C000E5A542 /* WeekRankViewController.swift in Sources */,
+				15F20EAD1F209A8A00E5A542 /* FileAttr.swift in Sources */,
+				15F20EC51F209A8A00E5A542 /* Post.swift in Sources */,
+				15F20EA91F209A8A00E5A542 /* AddLinkViewController.swift in Sources */,
+				153E693D1F21867500E48CB4 /* ThisWeekController.swift in Sources */,
+				15F20C2D1F20464800E5A542 /* checklistTableViewCell.swift in Sources */,
+				15F20C311F20464800E5A542 /* WeekUpViewController.swift in Sources */,
+				15F20BCA1F20451D00E5A542 /* AllTabBarController.swift in Sources */,
+				15F20F121F209A8A00E5A542 /* AddSummaryViewController.swift in Sources */,
+				15F20DE41F205A3A00E5A542 /* TeamCell.swift in Sources */,
+				15F20C141F20460600E5A542 /* WeekRankTableCell.swift in Sources */,
+				153E69351F21867500E48CB4 /* GetSuperView.swift in Sources */,
+				15F20F051F209A8A00E5A542 /* GCDWebServerRequest.m in Sources */,
+				15F20C061F20460600E5A542 /* EditTeamTableCell.swift in Sources */,
+				15F20DDD1F205A3A00E5A542 /* CollapsibleTableViewHeader.swift in Sources */,
+				15F20F0C1F209A8A00E5A542 /* GCDWebServerErrorResponse.m in Sources */,
+				15F20DDE1F205A3A00E5A542 /* CreateTeamViewController.swift in Sources */,
+				15F20F031F209A8A00E5A542 /* GCDWebServerConnection.m in Sources */,
+				15F20BCC1F20452700E5A542 /* AllNavigationController.swift in Sources */,
+				15F20F071F209A8A00E5A542 /* GCDWebServerDataRequest.m in Sources */,
+				15F20C4A1F20473400E5A542 /* profileViewController.swift in Sources */,
+				15F20F091F209A8A00E5A542 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				15F20EA61F209A8A00E5A542 /* AddAttachmentCell.swift in Sources */,
+				15F20C441F20473400E5A542 /* activityCell.swift in Sources */,
+				15F20C1D1F20463900E5A542 /* UIBarButtonItem+PPBadgeView.swift in Sources */,
+				15F20BBA1F2044D000E5A542 /* ViewController.swift in Sources */,
+				15F20C0F1F20460600E5A542 /* UpTableCell.swift in Sources */,
+				15F20BB81F2044D000E5A542 /* AppDelegate.swift in Sources */,
+				15F20DE21F205A3A00E5A542 /* ResendSMSCell.swift in Sources */,
+				15F20C091F20460600E5A542 /* RankTableCell.swift in Sources */,
+				15F20C1C1F20463900E5A542 /* PPBadgeLabel.swift in Sources */,
+				15F20EAF1F209A8A00E5A542 /* TransportViewController.swift in Sources */,
+				15F20DF01F20818E00E5A542 /* message.swift in Sources */,
+				15F20C4B1F20473400E5A542 /* settingViewController.swift in Sources */,
+				153E69371F21867500E48CB4 /* ListCell.swift in Sources */,
+				15F20DE01F205A3A00E5A542 /* PopCell.swift in Sources */,
+				15F20F101F209A8A00E5A542 /* GCDWebUploader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15F20F2A1F209ADE00E5A542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CVCalendar;
+			targetProxy = 15F20F291F209ADE00E5A542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15F20BBB1F2044D000E5A542 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15F20BBC1F2044D000E5A542 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15F20BC01F2044D000E5A542 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15F20BC11F2044D000E5A542 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15F20BC41F2044D000E5A542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15F20BC51F2044D000E5A542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15F20BC71F2044D000E5A542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeekUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = song.WeekUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Add/Transport-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		15F20BC81F2044D000E5A542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeekUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = song.WeekUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Add/Transport-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15F20BAF1F2044D000E5A542 /* Build configuration list for PBXProject "WeekUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F20BC41F2044D000E5A542 /* Debug */,
+				15F20BC51F2044D000E5A542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15F20BC61F2044D000E5A542 /* Build configuration list for PBXNativeTarget "WeekUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F20BC71F2044D000E5A542 /* Debug */,
+				15F20BC81F2044D000E5A542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15F20BAC1F2044D000E5A542 /* Project object */;
+}

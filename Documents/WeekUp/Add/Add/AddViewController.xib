@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddViewController" customModule="WeekUp" customModuleProvider="target">
+            <connections>
+                <outlet property="Month" destination="KFe-A4-7dd" id="VLe-Ms-iiP"/>
+                <outlet property="attachmentButton" destination="xgp-wh-ZDu" id="9mg-sI-xIT"/>
+                <outlet property="checklistButton" destination="4Zt-GL-miw" id="ZK9-c8-VoX"/>
+                <outlet property="closeButton" destination="ZHO-Rk-yED" id="Dqn-6S-Zj4"/>
+                <outlet property="fifthweeek" destination="2dI-hf-Agj" id="XUg-zu-vhE"/>
+                <outlet property="fifthweekrank" destination="CG6-kW-gYb" id="NnA-kI-3pT"/>
+                <outlet property="fifthweekup" destination="hdJ-Xp-qzT" id="w28-GL-smw"/>
+                <outlet property="firstweeek" destination="5Io-1n-Fqt" id="THA-AV-le5"/>
+                <outlet property="firstweekrank" destination="Wql-HJ-RAN" id="ClU-U7-W2m"/>
+                <outlet property="firstweekup" destination="094-vv-YCu" id="HPg-68-kcZ"/>
+                <outlet property="forthweeek" destination="iux-Yk-DnE" id="X2o-gT-zSG"/>
+                <outlet property="forthweekrank" destination="0PW-Ui-RZX" id="XnB-Mn-BEY"/>
+                <outlet property="forthweekup" destination="rcc-Vm-wk6" id="8qq-LV-8Ga"/>
+                <outlet property="linkButton" destination="LrE-Jj-Mbk" id="hmA-xO-BCB"/>
+                <outlet property="mentionButton" destination="abi-0j-wjL" id="Ia5-pK-XI5"/>
+                <outlet property="postButton" destination="uly-EM-KMW" id="FTb-kG-pd4"/>
+                <outlet property="secondweeek" destination="PPl-pb-Tcy" id="vf6-2y-9Yz"/>
+                <outlet property="secondweekrank" destination="jLC-ZV-eov" id="2Zb-ZK-hnV"/>
+                <outlet property="secondweekup" destination="fFu-oI-n1t" id="gPJ-Mc-nDo"/>
+                <outlet property="sixthweeek" destination="b5f-fw-fqq" id="yTM-rL-ljR"/>
+                <outlet property="sixthweekrank" destination="CNQ-4W-RcH" id="Mes-c8-jzm"/>
+                <outlet property="sixthweekup" destination="zqM-WI-h6q" id="Hv0-JZ-N0Q"/>
+                <outlet property="summaryButton" destination="z3W-MJ-3BN" id="Nha-eX-1oR"/>
+                <outlet property="thirdweeek" destination="w5J-W4-0YP" id="z1n-aA-eeg"/>
+                <outlet property="thirdweekrank" destination="cSK-Uv-jea" id="oc8-H4-HPa"/>
+                <outlet property="thirdweekup" destination="Nyc-YF-iA4" id="fIi-3W-5en"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="weather" destination="wuP-pE-Bmd" id="HUY-gn-pPH"/>
+                <outlet property="weeknumber" destination="Ksc-BW-G8G" id="Zj7-xc-MkL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background Blur" translatesAutoresizingMaskIntoConstraints="NO" id="1P5-k1-eCG">
+                    <frame key="frameInset" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zt-GL-miw" userLabel="checklist">
+                    <frame key="frameInset" minX="51" minY="401" width="64" height="82"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="checklist2"/>
+                    <connections>
+                        <action selector="checklist:" destination="-1" eventType="touchUpInside" id="n9d-ma-cq0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uly-EM-KMW" userLabel="post">
+                    <frame key="frameInset" minX="161" minY="401" width="64" height="82"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="post"/>
+                    <connections>
+                        <action selector="post:" destination="-1" eventType="touchUpInside" id="Czi-As-U5F"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3W-MJ-3BN" userLabel="summary">
+                    <frame key="frameInset" minX="271" minY="401" width="64" height="84"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="summary2"/>
+                    <connections>
+                        <action selector="summary:" destination="-1" eventType="touchUpInside" id="rJ0-Mw-AfB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abi-0j-wjL" userLabel="mention">
+                    <frame key="frameInset" minX="51" minY="503" width="64" height="82"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="mention"/>
+                    <connections>
+                        <action selector="mention:" destination="-1" eventType="touchUpInside" id="8Lt-zP-q4A"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrE-Jj-Mbk" userLabel="link">
+                    <frame key="frameInset" minX="161" minY="503" width="64" height="81"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Link"/>
+                    <connections>
+                        <action selector="link:" destination="-1" eventType="touchUpInside" id="Hhb-nv-M8n"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgp-wh-ZDu" userLabel="attachment">
+                    <frame key="frameInset" minX="271" minY="503" width="64" height="82"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="attachment"/>
+                    <connections>
+                        <action selector="attachment:" destination="-1" eventType="touchUpInside" id="exN-7T-uuK"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weather" translatesAutoresizingMaskIntoConstraints="NO" id="wuP-pE-Bmd">
+                    <frame key="frameInset" minX="270" minY="26" width="83" height="83"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHO-Rk-yED" userLabel="close">
+                    <frame key="frameInset" minX="179" minY="625" width="16" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="close"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="GRK-5a-emi"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Week2 | Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ksc-BW-G8G">
+                    <frame key="frameInset" minX="52" minY="39" width="173" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w5J-W4-0YP" userLabel="thirdweek">
+                    <frame key="frameInset" minX="33" minY="219" width="73" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSK-Uv-jea" userLabel="ranknum">
+                            <frame key="frameInset" minX="21" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rank" translatesAutoresizingMaskIntoConstraints="NO" id="mxB-Ks-W2w">
+                            <frame key="frameInset" minX="8" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up" translatesAutoresizingMaskIntoConstraints="NO" id="uZV-Kc-Xou">
+                            <frame key="frameInset" minX="40" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyc-YF-iA4" userLabel="upnum">
+                            <frame key="frameInset" minX="56" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98804229497909546" green="0.93576592206954956" blue="0.93446600437164307" alpha="0.92549020049999997" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Io-1n-Fqt" userLabel="firstweek">
+                    <frame key="frameInset" minX="33" minY="137" width="73" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="094-vv-YCu" userLabel="upnum">
+                            <frame key="frameInset" minX="56" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rank" translatesAutoresizingMaskIntoConstraints="NO" id="iGQ-ED-WvU">
+                            <frame key="frameInset" minX="8" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up" translatesAutoresizingMaskIntoConstraints="NO" id="w76-us-Dsc">
+                            <frame key="frameInset" minX="40" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wql-HJ-RAN" userLabel="ranknum">
+                            <frame key="frameInset" minX="21" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98804229497909546" green="0.93576592206954956" blue="0.93446600437164307" alpha="0.92549020051956177" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PPl-pb-Tcy" userLabel="secondweek">
+                    <frame key="frameInset" minX="33" minY="178" width="73" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLC-ZV-eov" userLabel="ranknum">
+                            <frame key="frameInset" minX="21" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up" translatesAutoresizingMaskIntoConstraints="NO" id="mv2-ee-J3l">
+                            <frame key="frameInset" minX="40" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rank" translatesAutoresizingMaskIntoConstraints="NO" id="7jd-oW-Rfb">
+                            <frame key="frameInset" minX="8" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFu-oI-n1t" userLabel="upnum">
+                            <frame key="frameInset" minX="56" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98804229497909546" green="0.93576592206954956" blue="0.93446600437164307" alpha="0.92549020049999997" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iux-Yk-DnE" userLabel="forthweek">
+                    <frame key="frameInset" minX="33" minY="260" width="73" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up" translatesAutoresizingMaskIntoConstraints="NO" id="OdU-mL-XwR">
+                            <frame key="frameInset" minX="40" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rank" translatesAutoresizingMaskIntoConstraints="NO" id="8Zf-eC-p8o">
+                            <frame key="frameInset" minX="8" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcc-Vm-wk6" userLabel="upnum">
+                            <frame key="frameInset" minX="56" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0PW-Ui-RZX" userLabel="ranknum">
+                            <frame key="frameInset" minX="21" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98804229497909546" green="0.93576592206954956" blue="0.93446600437164307" alpha="0.92549020049999997" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2dI-hf-Agj" userLabel="fifthweek">
+                    <frame key="frameInset" minX="33" minY="301" width="73" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up" translatesAutoresizingMaskIntoConstraints="NO" id="XPi-72-1pg">
+                            <frame key="frameInset" minX="40" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rank" translatesAutoresizingMaskIntoConstraints="NO" id="EwR-Rx-rUS">
+                            <frame key="frameInset" minX="8" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdJ-Xp-qzT" userLabel="upnum">
+                            <frame key="frameInset" minX="56" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CG6-kW-gYb" userLabel="ranknum">
+                            <frame key="frameInset" minX="21" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98804229497909546" green="0.93576592206954956" blue="0.93446600437164307" alpha="0.92549020049999997" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b5f-fw-fqq" userLabel="sixthweek">
+                    <frame key="frameInset" minX="33" minY="342" width="73" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="up" translatesAutoresizingMaskIntoConstraints="NO" id="GEl-5g-BPJ">
+                            <frame key="frameInset" minX="40" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rank" translatesAutoresizingMaskIntoConstraints="NO" id="uFz-g3-TCs">
+                            <frame key="frameInset" minX="8" minY="10" width="12" height="12"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqM-WI-h6q" userLabel="upnum">
+                            <frame key="frameInset" minX="56" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNQ-4W-RcH" userLabel="ranknum">
+                            <frame key="frameInset" minX="21" minY="8" width="17" height="17"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.98804229497909546" green="0.93576592206954956" blue="0.93446600437164307" alpha="0.92549020049999997" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="November,2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFe-A4-7dd">
+                    <frame key="frameInset" minX="52" minY="89" width="133" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Background Blur" width="375" height="667"/>
+        <image name="Link" width="64" height="81"/>
+        <image name="attachment" width="64" height="82"/>
+        <image name="checklist2" width="64" height="82"/>
+        <image name="close" width="16" height="15"/>
+        <image name="mention" width="64" height="82"/>
+        <image name="post" width="64" height="82"/>
+        <image name="rank" width="12" height="12"/>
+        <image name="summary2" width="64" height="84"/>
+        <image name="up" width="12" height="12"/>
+        <image name="weather" width="68" height="79"/>
+    </resources>
+</document>
